@@ -10,9 +10,9 @@
           "registry.hub.docker.com/kubernetesui/metrics-scraper": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/metrics-scraper",
           "k8s.gcr.io/metrics-server/metrics-server": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/metrics-server",
           "k8s.gcr.io/kube-state-metrics/kube-state-metrics": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/kube-state-metrics",
-          "k8s.gcr.io/ingress-nginx/controller": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/ingress-nginx-controller",
-          "k8s.gcr.io/ingress-nginx/controller-chroot": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/ingress-nginx-controller-chroot",
-          "k8s.gcr.io/ingress-nginx/kube-webhook-certgen": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/ingress-nginx-kube-webhook-certgen",
+          "k8s.gcr.io/ingress-nginx/controller": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/ingress-controller",
+          "k8s.gcr.io/ingress-nginx/controller-chroot": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/ingress-controller-chroot",
+          "k8s.gcr.io/ingress-nginx/kube-webhook-certgen": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/ingress-kube-webhook-certgen",
           "quay.io/brancz/kube-rbac-proxy": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/kube-rbac-proxy"
  
     }
