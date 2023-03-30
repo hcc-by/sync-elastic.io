@@ -6,9 +6,20 @@
         }
     },
     "images": {                   
-          "k8s.gcr.io/ingress-nginx/controller": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/ingress-controller",
-          "k8s.gcr.io/ingress-nginx/controller-chroot": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/ingress-controller-chroot",
-          "k8s.gcr.io/ingress-nginx/kube-webhook-certgen": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/ingress-kube-webhook-certgen"
+        "docker.elastic.co/elasticsearch/elasticsearch": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/elasticsearch",
+        "docker.elastic.co/kibana/kibana": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/kibana",
+        "docker.elastic.co/logstash/logstash": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/logstash",
+        "docker.elastic.co/beats/filebeat": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/filebeat",
+        "docker.elastic.co/beats/heartbeat": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/heartbeat",
+        "docker.elastic.co/beats/packetbeat": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/packetbeat",
+        "docker.elastic.co/beats/auditbeat": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/auditbeat",
+        "docker.elastic.co/beats/journalbeat": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/journalbeat",
+        "docker.elastic.co/beats/metricbeat": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/metricbeat",
+        "docker.elastic.co/apm/apm-server": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/apm-server",
+        "docker.elastic.co/app-search/app-search": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/app-search",
+        "registry.hub.docker.com/kubernetesui/dashboard": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/dashboard",
+        "quay.io/brancz/kube-rbac-proxy": "registry.cn-hangzhou.aliyuncs.com/hcc-plug/kube-rbac-proxy",
+        "registry.hub.docker.com/kubernetesui/metrics-scraper": "registry.cn-hangzhou.aliyuncs.com/hcc-k8s/metrics-scraper"
  
     }
 }
